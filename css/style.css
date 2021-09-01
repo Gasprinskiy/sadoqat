@@ -743,6 +743,11 @@ footer.page_box {
         width: 100%;
         margin: 40px 0px 45px 0px;
     }
+    .request_modal__container,
+    .request_modal-end {
+        max-width: 380px;
+        padding: 51px 50px 47px 50px;
+    }
 } 
 @media (max-width: 420px) {
     .hello_img {
@@ -772,9 +777,19 @@ footer.page_box {
     .accordion_btn {
         font-size: 19px;
     }
+    .request_modal__container,
+    .request_modal-end {
+        max-width: 350px;
+        padding: 51px 40px 47px 40px;
+    }
 } 
 @media (max-width: 360px) {
     .body_wrapper {
         padding: 20px 15px;
+    }
+    .request_modal__container,
+    .request_modal-end {
+        max-width: 300px;
+        padding: 51px 30px 47px 30px;
     }
 } 
