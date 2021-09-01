@@ -442,10 +442,10 @@ footer.page_box {
     content: '';
     position: absolute;
     display: block;
-    width: 1.5px;
+    width: 2px;
     height: 20px;
     background-color: #465F56;
-    right: 1px;
+    right: 0px;
     transition: all 0.3s ease-out;
     transform: rotate(-360deg);
 }
@@ -454,7 +454,7 @@ footer.page_box {
 }
 
 .acc_btn-text {
-    width: 88%;
+    width: 87%;
 }
 
 .acc_content {
