@@ -410,13 +410,14 @@ footer.page_box {
     padding: 0;
     background:none;
     position: relative;
+    text-align: left;
 }
 .accordion_btn:active {
     background: #FFD1A6;
     color: #465F56;
 }
 
-.accordion_btn span {
+.accordion_btn span:last-child {
     display: flex;
     width: 2px;
     height: 20px;
@@ -437,7 +438,12 @@ footer.page_box {
 }
 .accordion_btn.drop::after{
     transform: rotate(-90deg);
-   }
+}
+
+.acc_btn-text {
+    width: 88%;
+}
+
 .acc_content {
     width: 100%;
     max-height: 0;
@@ -727,7 +733,7 @@ footer.page_box {
 
 @media (max-width: 460px) {
     .body_wrapper {
-        padding: 30px 25px;
+        padding: 30px 15px;
     }
     .quastion_container {
         padding: 50px 20px 60px 20px;
@@ -748,6 +754,9 @@ footer.page_box {
         max-width: 380px;
         padding: 51px 50px 47px 50px;
     }
+    .accordion_btn {
+        font-size: 18px;
+    }
 } 
 @media (max-width: 420px) {
     .hello_img {
@@ -765,17 +774,11 @@ footer.page_box {
     }
 } 
 @media (max-width: 400px) {
-    .body_wrapper {
-        padding: 25px 20px;
-    }
     h2 {
         line-height: 35px;
     }
     .accordion_items {
         margin-top: 30px;
-    }
-    .accordion_btn {
-        font-size: 19px;
     }
     .request_modal__container,
     .request_modal-end {
@@ -784,9 +787,6 @@ footer.page_box {
     }
 } 
 @media (max-width: 360px) {
-    .body_wrapper {
-        padding: 20px 15px;
-    }
     .request_modal__container,
     .request_modal-end {
         max-width: 300px;
