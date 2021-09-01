@@ -364,6 +364,18 @@ footer.page_box {
     transition: all 1s ease 0.8s;
 }
 
+.left-to-right-anim.delay {
+    opacity: 0;
+    transform: translateX(-150%);
+    transition: all 1s ease 2s;
+}
+.left-to-right-anim.delay.active {
+    opacity: 1;
+    transform: translateX(0%);
+    transition: all 1s ease 2s;
+}
+
+
 .left-to-right-anim::before {
     opacity: 0;
     transform: translateX(-150%);
@@ -419,10 +431,11 @@ footer.page_box {
 
 .accordion_btn span:last-child {
     display: flex;
+    position: absolute;
     width: 2px;
     height: 20px;
     background-color: #465F56;
-    right: 30px;
+    right: 0px;
     transform: rotate(90deg);
 }
 .accordion_btn::after {
