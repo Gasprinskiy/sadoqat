@@ -1,0 +1,94 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?g68syb');
+  src:  url('fonts/icomoon.eot?g68syb#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?g68syb') format('truetype'),
+    url('fonts/icomoon.woff?g68syb') format('woff'),
+    url('fonts/icomoon.svg?g68syb#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"]::before, [class*=" icon-"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook:before {
+  content: "\e904";
+  color: #465f56;
+}
+.icon-phone:before {
+  content: "\e905";
+  color: #465f56;
+}
+.icon-telegram:before {
+  content: "\e906";
+  color: #465f56;
+}
+.icon-instagram:before {
+  content: "\e907";
+  color: #465f56;
+}
+. .path1:before {
+  content: "\e900";
+  color: rgb(255, 209, 166);
+}
+. .path2:before {
+  content: "\e901";
+  margin-left: -1em;
+  color: rgb(70, 95, 86);
+}
+.icon-subtitle_1 .path1:before {
+  content: "\e902";
+  color: rgb(255, 209, 166);
+}
+.icon-subtitle_1 .path2:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(70, 95, 86);
+}
+.icon-subtitle_1 .path3:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: rgb(70, 95, 86);
+}
+.icon-comment .path1:before {
+  content: "\e909";
+  color: rgb(255, 209, 166);
+}
+.icon-comment .path2:before {
+  content: "\e90a";
+  margin-left: -1em;
+  color: rgb(70, 95, 86);
+}
+.icon-comment .path3:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(70, 95, 86);
+}
+.icon-Gsubtitle .path1:before {
+  content: "\e90c";
+  color: rgb(255, 209, 166);
+}
+.icon-Gsubtitle .path2:before {
+  content: "\e90d";
+  margin-left: -1em;
+  color: rgb(70, 95, 86);
+}
+.icon-Gsubtitle .path3:before {
+  content: "\e90e";
+  margin-left: -1em;
+  color: rgb(70, 95, 86);
+}
